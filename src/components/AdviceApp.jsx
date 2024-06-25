@@ -12,7 +12,7 @@ export const AdviceApp = () => {
 
   }
   return (
-    <div>
+    <div className='advice-container'>
         <h3 >{advice}</h3>
         <button onClick={clickHandle}>Get Advice</button>
         <p>You have read <b>{count}</b> pieces of Advice.</p>
