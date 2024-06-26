@@ -10,7 +10,7 @@ h3{
 }
 body{
     background: rgb(2,0,36);
-    background-image: url('advice.jpg');
+    background-image: url('public/advice.jpg');
     background-size: cover;
     color: white;
     text-align: center;
@@ -58,10 +58,12 @@ div button{
     cursor: pointer;
     font-size: 15px;
     background-color: white;
+    
 }
 
 div button:hover{
     animation:shakes 0.7s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 b{
