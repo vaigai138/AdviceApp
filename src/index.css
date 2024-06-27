@@ -10,7 +10,7 @@ h3{
 }
 body{
     background: rgb(2,0,36);
-    background-image: url('public/advice.jpg');
+    background-image: url('/advice.jpg');
     background-size: cover;
     color: white;
     text-align: center;
